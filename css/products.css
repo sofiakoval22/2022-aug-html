@@ -1,5 +1,14 @@
+#products {
+    color: aqua;
+}
+
+
 .product-card__image {
     width: 50%;
     margin: auto;
    
+}
+
+.product-card__h3:hover {
+    color:white;
 }
