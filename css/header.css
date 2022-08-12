@@ -1,3 +1,41 @@
+.header {
+    background-color: var(--background-color);
+    padding: 5px;
+}
+
+.header-nav__logo {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.header-nav__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 500px) {
+.header-nav > .containar {
+    display: flex;
+}
+}
+
+.header-nav__menu {
+    flex-direction: row;
+}
+
+.header-nav__menu-item {
+    color: var(--text-color);
+    text-decoration: none;
+    
+}
+
+
+
+
+
 .header-banner {
     background-image: url(../img/baby-yoda.svg);
     background-size: cover;
